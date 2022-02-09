@@ -46,5 +46,5 @@ Turgi:Ankara
 Ukraina:Kiiev
 Ungari:Budapest
 Valgevene:Minsk
-Vatikan:Vatican
+Vatikan:Vatikan
 Veenemaa:Moskva

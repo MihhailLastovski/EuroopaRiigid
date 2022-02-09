@@ -11,13 +11,6 @@ def failist_sõnastikusse():
     file.close()
     return sonastik
 
-def new_word(sonastik):
-    slovo=input("Введите страну, которую хотите добавить: ")
-    slovo2=input("Введите столицу, которую хотите добавить: ")
-    with open("Euroopa_riigid.txt","a") as fail:
-        fail.write(slovo+":"+slovo2+"\n")
-    sonastik[slovo]=slovo2
-    print(f'Страна "{slovo}" и её столица "{slovo2}" добавлены')
 
 def test(result,l,l2):
     slovo=choice(l)
